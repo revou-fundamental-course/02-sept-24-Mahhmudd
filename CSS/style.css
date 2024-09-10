@@ -45,6 +45,7 @@
     background-position: center;
     align-self: center;
 }
+
 .luas-segitiga-form-header {
     text-align: center;
 }
@@ -56,7 +57,7 @@
     align-items: center;
 }
 .input-wrapper>input {
-    width: 65%;
+    width: 60%;
 }
 
 input[type=number] {
@@ -74,4 +75,32 @@ input[type=number] {
 
 .main-content>aside {
     flex: 1;
+}
+
+.keliling-segitiga-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 8px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.keliling-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.keliling-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/NhGpVGYEICC11Wslq7gQRfy3RYU=/152x154:1550x1086/375x240/data/photo/2022/03/09/622887153d957.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+
+.keliling-segitiga-form-header {
+    text-align: center;
 }
