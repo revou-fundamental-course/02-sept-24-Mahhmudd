@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\style.css">
+    <script src="JS/script.js"></script>
 </head>
 
 <body>
@@ -41,16 +42,17 @@
                     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" type="number"/>
+                        <input id="panjang-alas" placeholder="panjang-alas" type="number"/>
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" type="number"/>
+                        <input id="tinggi" placeholder="tinggi" type="number"/>
                     </div>
-                        
-                    <p id="result">Hasil Perhitungan:</p>
+                    <button onclick="perhitungan()">Hitung Luas</button>   
+                    <p id="hasil">Hasil Perhitungan:</p>
 
-                    <button>Hitung</button>
+                    
+                    
                 
                 </form>
             </aside>
