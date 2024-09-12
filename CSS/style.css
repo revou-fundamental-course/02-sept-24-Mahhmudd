@@ -104,3 +104,8 @@ input[type=number] {
 .keliling-segitiga-form-header {
     text-align: center;
 }
+
+.btn-reset {
+    background-color: orange;
+    display: flex;
+}

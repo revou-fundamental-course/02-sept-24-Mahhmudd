@@ -13,6 +13,7 @@
     <header class="main-header">
         <h1>Welcome to Katik</h1>
         <p>Hai Sobat Selamat Datang di Katik :) </p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
     </header>
 
     <main>
@@ -42,18 +43,20 @@
                     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" placeholder="panjang-alas" type="number"/>
+                        <input id="panjang-alas" name="panjang-alas" placeholder="Panjang Alas" type="number"/>
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" placeholder="tinggi" type="number"/>
+                        <input id="tinggi" name="tinggi" placeholder="Tinggi" type="number"/>
                     </div>
-                    <button onclick="perhitungan()">Hitung Luas</button>   
-                    <p id="hasil">Hasil Perhitungan:</p>
+                        <p id="result">Hasil Perhitungan:</p>
+                        <button type="button" onclick="luassegitiga()">Hitung Luas:</button>
+                        <p id="rincianluas">Rincian Perhitungan:</p>
+                        <p id="luas"></p>
+                    
+                        <button class="btn-reset" type="button" onclick="resetluas()">Reset</button>
 
-                    
-                    
-                
+
                 </form>
             </aside>
 
@@ -77,22 +80,25 @@
                         
                     <div class="input-wrapper">
                         <label for="sisi-a">Sisi A:</label>
-                        <input id="sisi-a" type="number"/>
+                        <input id="sisi-a" name="sisi-a" type="number" placeholder="Sisi A"/>
                     </div>
                     
                     <div class="input-wrapper">
                         <label for="sisi-b">Sisi B:</label>
-                        <input id="sisi-b" type="number"/>
+                        <input id="sisi-b" name="sisi-b" type="number" placeholder="Sisi B"/>
                     </div>
 
                     <div class="input-wrapper"> 
                         <label for="sisi-c">Sisi C:</label>
-                        <input id="sisi-c" type="number"/>
+                        <input id="sisi-c" name="sisi-c" type="number" placeholder="Sisi C"/>
                     </div>
-                      
                         <p id="result">Hasil Perhitungan:</p>
+                        <button type="button" onclick="kelilingsegitiga()">Hitung Keliling:</button>
+                        <p id="rinciankeliling">Rincian Perhitungan:</p>
+                        <p id="keliling"></p>
 
-                        <button>Hitung</button>
+                        <button class="btn-reset" type="button" onclick="resetkeliling()">Reset</button>
+
                 
                 </form>
             </aside>
